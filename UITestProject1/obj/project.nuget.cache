@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q8meDrQlyX4YnHOYbpHYK+jU8Bd3icAICTrcPvrXlzUmgNcYSWxlYoUvCVdF5bDiKF6Q8TUIH9I9Osh+8H32UQ==",
+  "success": true,
+  "projectFilePath": "/home/hp/RiderProjects/Pokemon1/UITestProject1/UITestProject1.csproj",
+  "expectedPackageFiles": [
+    "/home/hp/.nuget/packages/nunit/2.6.4/nunit.2.6.4.nupkg.sha512",
+    "/home/hp/.nuget/packages/xamarin.uitest/2.2.4/xamarin.uitest.2.2.4.nupkg.sha512"
+  ],
+  "logs": []
+}

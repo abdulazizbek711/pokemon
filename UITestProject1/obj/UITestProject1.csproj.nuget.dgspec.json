@@ -1,0 +1,48 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/hp/RiderProjects/Pokemon1/UITestProject1/UITestProject1.csproj": {}
+  },
+  "projects": {
+    "/home/hp/RiderProjects/Pokemon1/UITestProject1/UITestProject1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/hp/RiderProjects/Pokemon1/UITestProject1/UITestProject1.csproj",
+        "projectName": "UITestProject1",
+        "projectPath": "/home/hp/RiderProjects/Pokemon1/UITestProject1/UITestProject1.csproj",
+        "packagesPath": "/home/hp/.nuget/packages/",
+        "outputPath": "/home/hp/RiderProjects/Pokemon1/UITestProject1/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/home/hp/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[2.6.4, )"
+            },
+            "Xamarin.UITest": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
