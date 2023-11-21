@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/hp/Desktop/Catalog/Catalog.csproj": {}
+    "/home/hp/RiderProjects/Pokemon1/pokemon/Catalog.csproj": {}
   },
   "projects": {
-    "/home/hp/Desktop/Catalog/Catalog.csproj": {
+    "/home/hp/RiderProjects/Pokemon1/pokemon/Catalog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hp/Desktop/Catalog/Catalog.csproj",
+        "projectUniqueName": "/home/hp/RiderProjects/Pokemon1/pokemon/Catalog.csproj",
         "projectName": "Catalog",
-        "projectPath": "/home/hp/Desktop/Catalog/Catalog.csproj",
+        "projectPath": "/home/hp/RiderProjects/Pokemon1/pokemon/Catalog.csproj",
         "packagesPath": "/home/hp/.nuget/packages/",
-        "outputPath": "/home/hp/Desktop/Catalog/obj/",
+        "outputPath": "/home/hp/RiderProjects/Pokemon1/pokemon/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/hp/.nuget/NuGet/NuGet.Config"
@@ -46,11 +46,23 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
+            "FakeItEasy": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[7.0.0-alpha.3, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.21, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
@@ -80,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.413/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.417/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,3 +1,4 @@
+using Catalog.Dto;
 using Catalog.Models;
 
 namespace Catalog.Interfaces;
@@ -7,6 +8,7 @@ public interface IPokemonRepository
     ICollection<Pokemon> GetPokemons();
     Pokemon GetPokemon(int Id);
     Pokemon GetPokemon(string name);
+    Pokemon GetPokemonTrimToUpper(PokemonDto pokemonCreate);
     decimal GetPokemonRating(int Id);
     bool PokemonExists(int pokeId); 
     bool CreatePokemon(int ownerId, int categoryId, Pokemon pokemon);

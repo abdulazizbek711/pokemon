@@ -1,4 +1,5 @@
 using Catalog.Data;
+using Catalog.Dto;
 using Catalog.Interfaces;
 using Catalog.Models;
 
@@ -23,6 +24,12 @@ namespace Catalog.Repository
         public Pokemon GetPokemon(string name)
         {
             return _context.Pokemon.Where(p => p.Name == name).FirstOrDefault();
+        }
+
+        public Pokemon GetPokemonTrimToUpper(PokemonDto pokemonCreate)
+        {
+            return GetPokemons().Where(c => c.Name.Trim().ToUpper() == pokemonCreate.Name.TrimEnd().ToUpper())
+                .FirstOrDefault();
         }
 
         public decimal GetPokemonRating(int pokeId)
